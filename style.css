@@ -462,3 +462,17 @@ p.o {
 .footer-submenu a:hover {
   color: #ffcc00;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .goals-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .goals-left, .goals-right {
+    width: 100%;
+  }
+}
